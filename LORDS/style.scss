@@ -1,0 +1,956 @@
+* {
+	box-sizing: border-box;
+}
+body {
+	width: 100%;
+	height: 100%;
+	padding: 0;
+	margin: 0;
+}
+.primapagina {
+	content: url(immagini/9hIgpn.jpg);
+	width: 100%;
+	height: 100vh;
+}
+.Megacontainer {
+	width: 80%;
+	align-content: center;
+	align-items: center;
+	margin: auto;
+	margin-top: -940px;
+}
+@font-face {
+	font-family: 'lordofthe';
+	src: url("font/anirm___.ttf");
+	font-style: normal;
+	font-weight: 100;
+}
+.titoloClasse {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 80%;
+	max-width: 500px;
+	padding-bottom: 40px;
+	padding-top: 40px;
+}
+.personaggi {
+	display: flex;
+}
+.personaggio1 {
+	position: absolute;
+	margin-left: 80px;
+	margin-top: 80px;
+}
+.fro1 {
+	font-family: lordofthe;
+	color: darkgoldenrod;
+	padding-left: 30px;
+}
+.fro2 {
+	font-family: lordofthe;
+	color: darkgoldenrod;
+	padding-left: 30px;
+}
+.image1 {
+	display: relative;
+	margin-top: 42px;
+	margin-left: 40px;
+	border-radius: 50%;
+}
+.imagecirco1 {
+	display: absolute;
+	position: absolute;
+	width: 360px;
+	margin-left: -331px;
+	margin-top: 11px;
+	transition: all 10s ease-in-out;
+	&:hover {
+		transform: rotate(360deg);
+	}
+}
+.personaggio2 {
+	position: relative;
+	margin-left: 540px;
+	margin-top: 80px;
+}
+.sam1 {
+	font-family: lordofthe;
+	color: darkgoldenrod;
+	padding-left: 30px;
+}
+.sam2 {
+	font-family: lordofthe;
+	color: darkgoldenrod;
+	padding-left: 30px;
+}
+.image2 {
+	display: relative;
+	margin-top: 42px;
+	margin-left: 40px;
+	border-radius: 50%;
+}
+.imagecirco2 {
+	display: absolute;
+	position: absolute;
+	width: 360px;
+	margin-left: -331px;
+	margin-top: 11px;
+	transition: all 10s ease-in-out;
+	&:hover {
+		transform: rotate(360deg);
+	}
+}
+.personaggio3 {
+	position: relative;
+	margin-left: 10px;
+	margin-top: 80px;
+}
+.marry1 {
+	font-family: lordofthe;
+	color: darkgoldenrod;
+	padding-left: 30px;
+}
+.marry2 {
+	font-family: lordofthe;
+	color: darkgoldenrod;
+	padding-left: 30px;
+}
+.image3 {
+	display: relative;
+	margin-top: 42px;
+	margin-left: 40px;
+	border-radius: 50%;
+}
+.imagecirco3 {
+	display: absolute;
+	position: absolute;
+	width: 360px;
+	margin-left: -331px;
+	margin-top: 11px;
+	transition: all 10s ease-in-out;
+	&:hover {
+		transform: rotate(360deg);
+	}
+}
+.personaggio4 {
+	position: relative;
+	margin-left: 40px;
+	margin-top: 80px;
+}
+.pip1 {
+	font-family: lordofthe;
+	color: darkgoldenrod;
+	padding-left: 30px;
+}
+.pip2 {
+	font-family: lordofthe;
+	color: darkgoldenrod;
+	padding-left: 30px;
+}
+.image4 {
+	display: relative;
+	margin-top: 42px;
+	margin-left: 40px;
+	border-radius: 50%;
+}
+.imagecirco4 {
+	display: absolute;
+	position: absolute;
+	width: 360px;
+	margin-left: -331px;
+	margin-top: 11px;
+	transition: all 10s ease-in-out;
+	&:hover {
+		transform: rotate(360deg);
+	}
+}
+.personaggi2 {
+	display: flex;
+}
+.personaggio5 {
+	position: absolute;
+	margin-left: 80px;
+	margin-top: 190px;
+}
+.ara1 {
+	font-family: lordofthe;
+	color: darkgoldenrod;
+	padding-left: 30px;
+}
+.ara2 {
+	font-family: lordofthe;
+	color: darkgoldenrod;
+	padding-left: 30px;
+}
+.image5 {
+	display: relative;
+	margin-top: 42px;
+	margin-left: 40px;
+	border-radius: 50%;
+}
+.imagecirco5 {
+	display: absolute;
+	position: absolute;
+	width: 360px;
+	margin-left: -331px;
+	margin-top: 11px;
+	transition: all 10s ease-in-out;
+	&:hover {
+		transform: rotate(360deg);
+	}
+}
+.personaggio6 {
+	position: relative;
+	margin-left: 540px;
+	margin-top: 190px;
+}
+.gim1 {
+	font-family: lordofthe;
+	color: darkgoldenrod;
+	padding-left: 30px;
+}
+.gim2 {
+	font-family: lordofthe;
+	color: darkgoldenrod;
+	padding-left: 30px;
+}
+.image6 {
+	display: relative;
+	margin-top: 42px;
+	margin-left: 40px;
+	border-radius: 50%;
+}
+.imagecirco6 {
+	display: absolute;
+	position: absolute;
+	width: 360px;
+	margin-left: -331px;
+	margin-top: 11px;
+	transition: all 10s ease-in-out;
+	&:hover {
+		transform: rotate(360deg);
+	}
+}
+.personaggio7 {
+	position: relative;
+	margin-left: 110px;
+	margin-top: 190px;
+}
+.leg1 {
+	font-family: lordofthe;
+	color: darkgoldenrod;
+	padding-left: 30px;
+}
+.leg2 {
+	font-family: lordofthe;
+	color: darkgoldenrod;
+	padding-left: 30px;
+}
+.image7 {
+	display: relative;
+	margin-top: 42px;
+	margin-left: 40px;
+	border-radius: 50%;
+}
+.imagecirco7 {
+	display: absolute;
+	position: absolute;
+	width: 360px;
+	margin-left: -331px;
+	margin-top: 11px;
+	transition: all 10s ease-in-out;
+	&:hover {
+		transform: rotate(360deg);
+	}
+}
+.personaggio8 {
+	position: relative;
+	margin-left: 70px;
+	margin-top: 190px;
+}
+.gan1 {
+	font-family: lordofthe;
+	color: darkgoldenrod;
+	padding-left: 30px;
+}
+.gan2 {
+	font-family: lordofthe;
+	color: darkgoldenrod;
+	padding-left: 30px;
+}
+.image8 {
+	display: relative;
+	margin-top: 42px;
+	margin-left: 40px;
+	border-radius: 50%;
+}
+.imagecirco8 {
+	display: absolute;
+	position: absolute;
+	width: 360px;
+	margin-left: -331px;
+	margin-top: 11px;
+	transition: all 10s ease-in-out;
+	&:hover {
+		transform: rotate(360deg);
+	}
+}
+.item {
+	padding: 10px;
+	border-radius: 20px;
+	&:hover {
+		img {
+			transform: scale(1.1);
+		}
+	}
+}
+video {
+	width: 100%;
+	height: auto;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 40px 40px 40px 40px;
+	box-shadow: -1px 0px 20px 3px #000000;
+}
+.containerVideo {
+	align-content: center;
+}
+.scroll-downs {
+	margin: auto;
+	margin-top: 30px;
+	width: 34px;
+	height: 55px;
+}
+.mousey {
+	width: 3px;
+	padding: 10px 15px;
+	height: 35px;
+	border: 2px solid rgb(252, 206, 0);
+	border-radius: 25px;
+	opacity: 0.75;
+	box-sizing: content-box;
+}
+.scroller {
+	width: 3px;
+	height: 10px;
+	border-radius: 25%;
+	background-color: rgb(252, 206, 0);
+	animation-name: scroll;
+	animation-duration: 2.2s;
+	animation-timing-function: cubic-bezier(.15,.41,.69,.94);
+	animation-iteration-count: infinite;
+}
+@keyframes 
+	scroll {
+		0% { opacity: 0;
+	}
+
+10% {
+	transform: translateY(0);
+	opacity: 1;
+}
+100% {
+	transform: translateY(15px);
+	opacity: 0;
+}
+
+    }
+#gradient {
+		width: 100%;
+		height: 200vh;
+		padding: 0px;
+		margin: 0px;
+		margin-top: 30px;
+	}
+
+
+
+
+
+
+    /**Slider**/
+
+
+
+
+
+  
+	#slideshow {
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 84px;
+		position: relative;
+		width: 100%;
+		
+		height: 100vh;
+	
+	
+		/*56.25 is for 16x9 resolution*/
+		
+		background: linear-gradient(darkgoldenrod, rgb(0, 0, 0));
+		
+		
+	  
+		> div {
+		  position: absolute;
+		  top: 100px;
+		  left: 160px;
+		  right: 160px;
+		  bottom: 100px;
+	  
+		  > img {
+			width: 100%;
+			height: 100%;
+			border-radius: 20px;
+			box-shadow: -1px 0px 20px 3px #000000;
+
+
+		  }
+		}
+	  
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	.spazioregolatore {
+		height: 968px;
+	}
+
+	  .containeranello {
+		  height: 70%;
+		  background-color: #000;
+		  display: flex;
+	  }
+
+	  .fotoanello  {
+align-content: center;
+padding-left: 200px;
+
+
+	  }
+	  .anelloo {
+		height: 500px;
+		
+	  }
+	  .scrittaanello {
+		color: white;
+		height: 600px;
+		text-align: center;
+		margin: auto;
+		
+			height: 200px;
+			flex-basis: 50%;
+			align-self: center;
+		  h2 {
+			font-family: lordofthe;
+	        color: darkgoldenrod;
+		  }
+		  p {
+			font-family: lordofthe;
+			color: darkgoldenrod;
+		  }
+		
+	  }
+
+	 
+		
+	  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.scrittafilm {
+	text-align: center;
+	color: darkgoldenrod;
+	font-size: 30px;
+	font-family: 'lordofthe';
+	padding-top: 100px;
+	margin-bottom: -100px;
+	
+}
+
+	  $color-white: #fff;
+$color-black: #000;
+
+$transition-time: 250ms;
+$transition-method: ease-in-out;
+
+$card-height: 562.5px;
+$card-width: 1000px;
+
+$card-hover-offset-x: 40px;
+$card-hover-offset-y: 60px;
+
+.containerfilm {
+	height: 100vh;
+	width: 100%;
+	background-color: black;
+	margin-top: -30px;
+}
+
+
+
+// *, *:before, *:after
+
+%clearfix {
+
+    &:after {
+        clear: both;
+        content: '';
+        display: table;
+		
+    }
+    // &:after
+
+}
+// %clearfix
+
+.card-movie-wrapper {
+    box-shadow: 0px 0px 100px 25px rgba($color-black, 0.2);
+    height: $card-height;
+    position: relative;
+    width: $card-width;
+	border-radius: 40px;
+	
+    
+    
+
+    &:hover {
+
+        .card-movie-carousel {
+            -webkit-transition: all $transition-time $transition-method;
+               -moz-transition: all $transition-time $transition-method;
+                    transition: all $transition-time $transition-method;
+            bottom: $card-hover-offset-y;
+            right: $card-hover-offset-x;
+			border-radius: 40px;
+			
+        }
+        // .card-movie-carousel
+
+    }
+    // &:hover
+
+}
+// .card-movie-wrapper
+
+.card-movie-wrapper--centered { 
+    -webkit-transform: translate(-50%, -50%);
+       -moz-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+         -o-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    left: 50%;
+    position: relative;
+    top: 50%;
+	border-radius: 40px;
+	-webkit-box-shadow: 0px 0px 0px 3px #000000; 
+box-shadow: 0px 0px 0px 3px #000000;
+    
+}
+// .card-movie-wrapper--centered
+
+.card-movie-carousel {
+    -webkit-transition: all $transition-time $transition-method 250ms;
+       -moz-transition: all $transition-time $transition-method 250ms;
+            transition: all $transition-time $transition-method 250ms;
+    height: $card-height;
+    width: $card-width;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    overflow: hidden;
+    border-radius: 40px;
+	
+	
+}
+
+.card-movie-navigation {
+    background-color: darkgoldenrod;
+    bottom: 0;
+    height: 100%;
+    overflow: hidden;
+    position: absolute;
+    right: 0;
+    width: 100%;
+    z-index: 15;
+	border-radius: 40px;
+	
+	
+    
+
+    &__list {
+        $item-size: 12px;
+        $item-size-active: $item-size * 1.2;
+        -webkit-transform: translateY(-50%);
+           -moz-transform: translateY(-50%);
+            -ms-transform: translateY(-50%);
+             -o-transform: translateY(-50%);
+                transform: translateY(-50%);
+        position: absolute;
+        right: ($card-hover-offset-x - $item-size) / 2;
+        top: 50%;
+        width: $item-size-active;
+
+        li {
+            -webkit-transition: all $transition-time $transition-method;
+               -moz-transition: all $transition-time $transition-method;
+                    transition: all $transition-time $transition-method;
+            background-color: rgb(0, 0, 0);
+            border-radius: 100%;
+            cursor: pointer;
+            height: $item-size;
+            margin: 0 auto $item-size/2;
+            width: $item-size;
+
+            &:last-child {
+                margin-bottom: 0;
+            }
+            // &:last-child
+
+            &.is-active {
+                height: $item-size-active;
+                width: $item-size-active;
+            }
+            // &.is-active
+			
+            &:hover {
+                background-color: rgb(88, 59, 35);
+            }
+            // &:hover
+
+        }
+        // li
+
+    }
+    // &__list
+  
+    button {
+        $arrow-size: 6px;
+        -webkit-appearance: none;
+           -moz-appearance: none;
+                appearance: none;
+        background-color: transparent;
+        border: none;
+        bottom: 0;
+        color: rgb(0, 0, 0);
+        cursor: pointer;
+        font-size: 14px;
+        line-height: $card-hover-offset-y;
+        margin: 0;
+        outline: none;
+        padding: 0;
+        position: absolute;
+        right: $card-hover-offset-x;
+
+        &:before {
+            content: 'Watch Trailer';
+        }
+        // &:before 
+
+        &:after {
+            -webkit-transform: translateY(-50%);
+               -moz-transform: translateY(-50%);
+                -ms-transform: translateY(-50%);
+                 -o-transform: translateY(-50%);
+                    transform: translateY(-50%);
+            border-bottom: $arrow-size solid transparent;
+            border-left: $arrow-size solid #000000;
+            border-top: $arrow-size solid transparent;
+            content: '';
+            height: 0; 
+            margin-right: $arrow-size;
+            position: absolute;
+            right: 100%;
+            top: 50%;
+            width: 0; 
+        }
+        // &:after 
+
+        &.is-playing {
+
+			&:before {
+				content: 'Hide Trailer';
+			}
+			// &:before 
+
+            &:after {
+                -webkit-transform: rotate(-90deg);
+                   -moz-transform: rotate(-90deg);
+                    -ms-transform: rotate(-90deg);
+                     -o-transform: rotate(-90deg);
+                        transform: rotate(-90deg);
+                margin-top: -$arrow-size;
+            }
+            // &:after 
+
+        }
+        // &.is-playing 
+
+    }
+    // button
+    
+}
+// .card-movie-navigation
+
+.card-movie {
+    -webkit-transition: all ($transition-time * 2) $transition-method;
+       -moz-transition: all ($transition-time * 2) $transition-method;
+            transition: all ($transition-time * 2) $transition-method;
+    background-size: cover;
+    bottom: 0;
+    height: 100%;
+    overflow: hidden;
+    position: absolute;
+    right: 0;
+    opacity: 0;
+    width: 100%;
+    z-index: 20;
+    
+
+    &__content {
+        left: 330px;    
+        position: absolute;
+        top: 150px;
+    }
+    // &__content
+
+    &__title {
+        font-size: 60px;
+        font-weight: 700;
+        line-height: 1;
+        margin-left: -4px;
+        text-transform: uppercase;
+    }
+    // &__title
+
+    &__details {
+        @extend %clearfix;
+        margin-bottom: 30px;
+        margin-top: 15px;
+
+        &-item {
+            display: block;
+            float: left;
+            margin-right: 20px;
+        }
+        // &-item
+
+        &-list {
+            @extend %clearfix;
+
+            li {
+                float: left;
+                margin-right: 5px;
+                padding-right: 6px;
+                position: relative;
+
+                &:after {
+                    content: '|';
+                    position: absolute;
+                    right: 0;
+                }
+                // &:after
+
+                &:last-child {
+                    margin-right: 0;
+
+                    &:after {
+                        display: none;
+                    }
+                    // &:after
+
+                }
+                // &:last-child
+
+            }
+            // li
+
+        }
+        // &-list
+
+    }
+    // &__details
+
+    &__description {
+        font-size: 14px;
+        max-width: 390px;
+    }
+    // &__description
+
+    &__rating {
+        $size: 50px;
+        bottom: $size/3;
+        font-size: 18px;
+        font-weight: 700;
+        line-height: $size;
+        position: absolute;
+        right: $size/3;
+        text-align: center;
+        width: $size;
+
+        &:after {
+            border-radius: 100%;
+            border: 2px solid #ee927b;
+            content: '';
+            height: 100%;
+            left: 0;
+            position: absolute;
+            top: 0;
+            width: 100%;
+        }
+        // &:after
+
+    }
+    // &__rating
+
+    &__player {
+       -webkit-transition: all ($transition-time * 2) $transition-method;
+           -moz-transition: all ($transition-time * 2) $transition-method;
+                transition: all ($transition-time * 2) $transition-method;
+        -webkit-transform: translate(-50%, -50%);
+           -moz-transform: translate(-50%, -50%);
+            -ms-transform: translate(-50%, -50%);
+             -o-transform: translate(-50%, -50%);
+                transform: translate(-50%, -50%);
+        height: 0;
+        left: 50%;
+        position: absolute;
+        top: 50%;
+        width: 0;
+        z-index: 20;
+    
+        .card-movie--playing & {
+            height: $card-height;
+            width: $card-width;
+            
+        }
+        // .card-movie--playing &
+
+        iframe {
+            height: 100%;
+            width: 100%;
+        }
+        // iframe
+
+    }
+    // &__player
+
+}
+// .card-movie 
+
+.card-movie--active {
+    opacity: 1;
+    z-index: 25;
+    
+}
+// .card-movie--active
+
+.card-movie--light {
+    background-color: #effdfd;
+
+    [class*='__title'] {
+        color: $color-black;
+    }
+    // [class*='__title'] 
+
+}
+// .card-movie--light
+
+.card-movie--dark {
+    background-color: $color-black;
+    color: #fff;
+
+    [class*='__title'] {
+        color: #fff;
+    }
+    // [class*='__title'] 
+
+}
+// .card-movie--dark
+
+.card-movie--simpson {
+    background-image: url('https://images8.alphacoders.com/675/thumb-1920-675236.jpg');
+}
+// .card-movie--looper
+
+.card-movie--tron {
+    background-image: url('https://images3.alphacoders.com/161/thumb-1920-161215.jpg');
+}
+// .card-movie--tron
+
+.card-movie--garden-state {
+    background-image: url('https://images7.alphacoders.com/112/thumb-1920-1123161.jpg');
+}
+// .card-movie--garden-state
+
+.card-movie--interstellar {
+    background-image: url('https://images4.alphacoders.com/794/thumb-1920-794739.jpg');
+    background-color: #fffffa;
+}
+// .card-movie--interstellar
+
+.card-movie--walter-mitty {
+    background-image: url('https://images7.alphacoders.com/453/thumb-1920-453105.jpg');
+}
+// .card-movie--walter-mitty
+
+.card-movie--cloud-atlas {
+    background-image: url('https://images7.alphacoders.com/119/thumb-1920-1193125.jpg');
+}
+// .card-movie--cloud-atlas
